@@ -1,4 +1,4 @@
---Just execute for sum esp
+--Just execute for sum esp enjoy (:
 
 local function billboard(char:Model)
 	if char then
