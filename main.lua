@@ -1,5 +1,3 @@
---Just execute for sum esp enjoy (:
-
 local function billboard(char:Model)
 	if char then
 		if char:FindFirstChild("HumanoidRootPart") then
@@ -81,13 +79,14 @@ game:GetService("RunService").RenderStepped:Connect(function()
 
 
 				local tracer = Drawing.new("Line")
+				tracer.Transparency = 0.5
 				tracer.Visible = true
 				tracer.Thickness = 2
 				
 				local tothing, onscr = workspace.CurrentCamera:WorldToViewportPoint(hrp.Position)
 				
 				if onscr == true then
-					tracer.From = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y)
+					tracer.From = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 1.3)
 					tracer.To = Vector2.new(tothing.X, tothing.Y)
 				end
 
