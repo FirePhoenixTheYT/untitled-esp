@@ -1,0 +1,10 @@
+local testline = Drawing.new("Line")
+testline.Visible = true
+testline.Thickness = 5
+testline.Color = Color3.new(1, 1, 1)
+tracer.From = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 1.5, workspace.CurrentCamera.ViewportSize.Y / 1.5)
+tracer.To = Vector2.new((workspace.CurrentCamera.ViewportSize.X * 1.5, workspace.CurrentCamera.ViewportSize.Y * 1.5)
+
+task.wait(4)
+
+testline:Destroy()
