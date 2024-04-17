@@ -1,3 +1,5 @@
+--Just execute for sum esp
+
 local function billboard(char:Model)
 	if char then
 		if char:FindFirstChild("HumanoidRootPart") then
