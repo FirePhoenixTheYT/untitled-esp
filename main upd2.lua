@@ -54,7 +54,7 @@ end
 game:GetService("RunService").RenderStepped:Connect(function()
 	cleardrawcache()
 	
-	for i, plr in game.Players do
+	for i, plr in game.Players:GetPlayers() do
 		local v = plr.Character:FindFirstChild("Humanoid")
 		
 		if v:IsA("Humanoid") then
