@@ -141,22 +141,23 @@ game:GetService("RunService").RenderStepped:Connect(function()
 						local botline3 = Drawing.new("Line")
 						local botline4 = Drawing.new("Line")
 
-						tracer.Color = Color3.new(0.8, 0.8, 0.8)
+							
+						tracer.Color = plr.TeamColor.Color
 
-						line1.Color = Color3.new(0.8, 0.8, 0.8)
-						line2.Color = Color3.new(0.8, 0.8, 0.8)
-						line3.Color = Color3.new(0.8, 0.8, 0.8)
-						line4.Color = Color3.new(0.8, 0.8, 0.8)
+						line1.Color = plr.TeamColor.Color
+						line2.Color = plr.TeamColor.Color
+						line3.Color = plr.TeamColor.Color
+						line4.Color = plr.TeamColor.Color
 
-						topline1.Color = Color3.new(0.8, 0.8, 0.8)
-						topline2.Color = Color3.new(0.8, 0.8, 0.8)
-						topline3.Color = Color3.new(0.8, 0.8, 0.8)
-						topline4.Color = Color3.new(0.8, 0.8, 0.8)
+						topline1.Color = plr.TeamColor.Color
+						topline2.Color = plr.TeamColor.Color
+						topline3.Color = plr.TeamColor.Color
+						topline4.Color = plr.TeamColor.Color
 
-						botline1.Color = Color3.new(0.8, 0.8, 0.8)
-						botline2.Color = Color3.new(0.8, 0.8, 0.8)
-						botline3.Color = Color3.new(0.8, 0.8, 0.8)
-						botline4.Color = Color3.new(0.8, 0.8, 0.8)
+						botline1.Color = plr.TeamColor.Color
+						botline2.Color = plr.TeamColor.Color
+						botline3.Color = plr.TeamColor.Color
+						botline4.Color = plr.TeamColor.Color
 
 						for i = 1, 8 do
 							if i == 1 then
